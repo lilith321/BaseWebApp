@@ -18,14 +18,20 @@ button {
   background-color: #1f0325;
   border: none;
   font-family: "Montserrat";
+  font-size: 22px !important;
   color: #eac1fa;
-  padding: 15px 32px;
+  padding: 20px;
+  width: 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #1f0325;
 }
 
 #doge-image img {
